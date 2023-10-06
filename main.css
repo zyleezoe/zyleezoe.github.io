@@ -1,0 +1,72 @@
+h1 {
+    color: brown;
+    font-family: 'Libre Baskerville';
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+#nav, #content, #supporting {
+    margin-top: 200px;
+}
+
+.container {
+    padding: 5px;
+}
+
+#banner {
+    width: 1200px;
+    background-color: beige;
+    color: white;
+    height: 200px;
+    clear: both;
+    position: fixed;
+    opacity: 0.7;
+}
+
+#nav {
+    width: 200px;
+    background-color: beige;
+    height: 500px;
+    float: left;
+    position: fixed;
+}
+
+#nav li {
+    display: block;
+    background-color: coral;
+    padding: 2px;
+    margin: 5px;
+}
+
+#content {
+    width: 800px;
+    background-color: darkkhaki;
+    float: left;
+}
+
+#supporting {
+    width: 200px;
+    background-color:aliceblue;
+    height: 500px;
+    float: left;
+}
+
+#footer {
+    width: 1200px;
+    background-color: grey;
+    clear: both;
+}
+
+#works, #education, #aboutMe {
+    padding-top: 200px;
+    margin-top: -200px;
+}
